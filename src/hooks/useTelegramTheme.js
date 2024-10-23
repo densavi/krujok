@@ -1,5 +1,3 @@
-// src/composables/useTelegramTheme.js
-
 import { ref, onMounted, watch } from 'vue';
 
 export function useTelegramTheme() {
