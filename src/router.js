@@ -4,6 +4,8 @@ import AddCard from '@/pages/AddCard/AddCard.vue';
 import Queue from "@/pages/Queue/Queue.vue";
 import SignUp from "@/pages/SignUp/SignUp.vue";
 import ToDo from "@/pages/ToDo/ToDo.vue";
+import Appointment from '@/pages/Appointment/Appointment.vue'
+import Group from "@/pages/Group/Group.vue";
 
 const routes = [
   {
@@ -30,6 +32,16 @@ const routes = [
     path: '/todo',
     name: 'To do',
     component: ToDo
+  },
+  {
+    path: '/appointment',
+    name: 'Appointment',
+    component: Appointment,
+  },
+  {
+    path: '/group',
+    name: 'Group',
+    component: Group,
   }
 ];
 

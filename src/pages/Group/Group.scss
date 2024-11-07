@@ -1,0 +1,53 @@
+.group {
+  padding-bottom: 40px;
+  margin-top: 16px;
+
+  &__title {
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  &__user {
+    .user__name {
+      margin: 0;
+    }
+    .user {
+      align-items: center;
+    }
+  }
+
+  &__check {
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__heading {
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+
+  &__date,
+  &__time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  &__btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}

@@ -99,6 +99,17 @@ select {
   &-red {
     background: #FD5959;
   }
+  &-big {
+    height: 54px;
+    font-size: 18px;
+  }
+  &-icon {
+    gap: 7px;
+  }
+  &-disabled {
+    background: #F3F3FC;
+    color: #000;
+  }
 }
 
 .block {

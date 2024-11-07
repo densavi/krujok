@@ -1,0 +1,33 @@
+.appointment {
+  padding-bottom: 40px;
+  margin-top: 16px;
+
+  &__info {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin-bottom: 9px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  &__descr {
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__date {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+  }
+  &__btn-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}

@@ -8,7 +8,7 @@
     </div>
     <div class="user__info">
       <div class="user__name">{{name}}</div>
-      <div class="user__date">
+      <div class="user__date" v-if="date">
         <img :src="calendarIcon" alt="">
         {{ date }}
         <div :class="{
